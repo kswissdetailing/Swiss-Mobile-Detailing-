@@ -72,8 +72,6 @@
         <div class="col-md-4">
           <div class="card">
             <img
-              src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?auto=format&fit=crop&w=800&q=60"
-              class="card-img-top"
               alt="Basic Detail"
             />
             <div class="card-body">
@@ -89,15 +87,12 @@
         <div class="col-md-4">
           <div class="card">
             <img
-              src="https://images.unsplash.com/photo-1628576813801-9e2b1e6e6d5e?auto=format&fit=crop&w=800&q=60"
-              class="card-img-top"
-              alt="Interior Honda Accord"
             />
             <div class="card-body">
               <h5 class="card-title">Full Detail</h5>
               <p class="card-text">
                 Full interior & exterior detail including shampoo, wax, and trim restoration.
-                <strong>From $100</strong>
+                <strong>At $60</strong>
               </p>
             </div>
           </div>
@@ -106,15 +101,12 @@
         <div class="col-md-4">
           <div class="card">
             <img
-              src="https://images.unsplash.com/photo-1572032535239-8b9f92163f66?auto=format&fit=crop&w=800&q=60"
-              class="card-img-top"
-              alt="Ceramic Coated Audi"
             />
             <div class="card-body">
               <h5 class="card-title">Ceramic Coating</h5>
               <p class="card-text">
-                Professional ceramic application for long-lasting shine and protection.
-                <strong>From $100</strong>
+                Full exterior and interior detail with professional ceramic application for long-lasting shine and protection.
+                <strong>At $100</strong>
               </p>
             </div>
           </div>
@@ -131,22 +123,16 @@
       <div class="row mt-4">
         <div class="col-md-4">
           <img
-            src="https://images.unsplash.com/photo-1588776814546-48b283251b7e?auto=format&fit=crop&w=800&q=60"
-            class="img-fluid mb-3"
             alt="Car exterior"
           />
         </div>
         <div class="col-md-4">
           <img
-            src="https://images.unsplash.com/photo-1591293836462-cbb0d0652c4e?auto=format&fit=crop&w=800&q=60"
-            class="img-fluid mb-3"
             alt="Car interior"
           />
         </div>
         <div class="col-md-4">
           <img
-            src="https://images.unsplash.com/photo-1625001138556-5408c33d135f?auto=format&fit=crop&w=800&q=60"
-            class="img-fluid mb-3"
             alt="Ceramic coating"
           />
         </div>
@@ -237,26 +223,84 @@
 <header>
   Premium Car Detailing Services
 </header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Car Wash Services</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      text-align: center;
+      padding: 20px;
+    }
 
-<div class="services">
-  <div class="service">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/2018_Honda_Accord_EXL_front_5.11.18.jpg" alt="Honda Accord - Basic Wash">
-    <h2>Basic Wash</h2>
-    <div class="price">$40</div>
-  </div>
+    h1 {
+      color: #333;
+    }
 
-  <div class="service">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Audi_A6_55_TFSI_quattro_S_line_IMG_3672.jpg" alt="Audi - Full Detail">
-    <h2>Full Detail</h2>
-    <div class="price">$50</div>
-  </div>
+    .services {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 30px;
+    }
 
-  <div class="service">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/2020_Porsche_911_Carrera_S_PDK_3.0.jpg" alt="Porsche - Ceramic Coating">
-    <h2>Ceramic Coating</h2>
-    <div class="price">$100</div>
+    .card {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 300px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .card h2 {
+      margin: 15px 0 10px;
+      color: #222;
+    }
+
+    .price {
+      font-size: 20px;
+      color: #008000;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Our Car Wash Packages</h1>
+
+  <div class="services">
+    <!-- Basic Wash -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/2018_Honda_Accord_EXL_front_4.15.18.jpg" alt="Honda Accord">
+      <h2>Basic Wash</h2>
+      <p class="price">$40</p>
+    </div>
+
+    <!-- Full Detail -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/76/2017_Audi_A4_Sport_Quattro_2.0_Front.jpg" alt="Audi Detail">
+      <h2>Full Detail</h2>
+      <p class="price">$60</p>
+    </div>
+
+    <!-- Full Detail + Ceramic -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Porsche_911_Turbo_S_%28992%29_IMG_4509.jpg" alt="Ceramic Coated Porsche">
+      <h2>Detail + Ceramic Coating</h2>
+      <p class="price">$100</p>
+    </div>
   </div>
-</div>
 
 </body>
 </html>
